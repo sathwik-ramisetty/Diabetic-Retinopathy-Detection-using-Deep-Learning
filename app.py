@@ -50,7 +50,7 @@ def save_as_docx(text, filename):
     doc.save(filename)
 
 # Load the trained model
-model = load_model('model\diabetic_retinopathy_model_version_check.h5')
+model = load_model('model/diabetic_retinopathy_model_version_check.h5')
 
 # Initialize the streamlit App
 st.set_page_config(page_title = "DR Detection")
